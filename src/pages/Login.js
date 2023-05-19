@@ -79,7 +79,7 @@ export default function Login() {
 
                         component="h1" variant="h5" alignContent="left">
 
-                        Authentification
+                        Authentification!
 
                     </Typography>
                     <form action="#" onSubmit={handleSubmit(Submitfunc)}>
