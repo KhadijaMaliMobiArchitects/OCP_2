@@ -25,5 +25,5 @@ COPY --from=0 /app/build /usr/share/nginx/html
 # Exposition du port 80 pour le trafic HTTP
 EXPOSE 80
 
-# Démarrage du serveur web Nginx
+# Demarrage du serveur web Nginx
 CMD ["nginx", "-g", "daemon off;"]
